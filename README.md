@@ -12,16 +12,14 @@ Other ways to use Pink: MCP server, Vercel AI SDK tools, LangChain/LangGraph too
 
 ## Install
 
-PyPI release coming soon. Until then, install straight from GitHub:
+```bash
+pip install pink-agentic-payments
+```
+
+Or install straight from GitHub:
 
 ```bash
 pip install git+https://github.com/Pink-Agentic-Payments/pink-agentic-payments-python
-```
-
-Future command, once published to PyPI:
-
-```bash
-pip install pink-agentic-payments
 ```
 
 ## Quickstart
