@@ -58,7 +58,7 @@ Every payment request resolves to one of three decisions, each a different HTTP 
 | `pending_human` | 202 | A human must approve in `/console` or via the admin API | `request_payment()` raises `PinkApprovalPending` |
 | `blocked` | 403 | No credential, ever, for this exact request | `request_payment()` raises `PinkPolicyDenied` |
 
-Real sandbox output captured while building this package (`examples/quickstart.py`, see `E2E-TRANSCRIPT.md` in this repo for the full run):
+Real sandbox output captured while building this package (run `examples/quickstart.py` to reproduce it):
 
 ```
 allowed:  payment_id=pay_... decision=allowed credential.type=bank_transfer
