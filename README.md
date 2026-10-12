@@ -8,6 +8,8 @@ JavaScript/TypeScript: https://github.com/Pink-Agentic-Payments/pink-agentic-pay
 
 Design partners wanted: free hands-on setup and early access during the design-partner period, at [agentic-sandbox.pinkwallet.com/demo](https://agentic-sandbox.pinkwallet.com/demo). Reach us at [support@pinkwallet.com](mailto:support@pinkwallet.com) or open an issue titled "Design partner" in this repo.
 
+Other ways to use Pink: MCP server, Vercel AI SDK tools, LangChain/LangGraph tools, n8n node, JS/TS client — see the [packages table](https://pinkwallet.com/agentic/developers/).
+
 ## Install
 
 PyPI release coming soon. Until then, install straight from GitHub:
