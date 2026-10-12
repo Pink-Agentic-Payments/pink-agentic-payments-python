@@ -1,0 +1,28 @@
+# This workflow is dormant until a PyPI project "pink-agentic-payments" exists
+# with a trusted publisher configured for this repo (owner Pink-Agentic-Payments,
+# repo pink-agentic-payments-python, workflow publish.yml, environment pypi).
+# Until then, publishing a GitHub release here will fail at the publish step.
+
+name: publish
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install build
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1
