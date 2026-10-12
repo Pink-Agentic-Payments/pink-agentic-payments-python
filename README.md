@@ -4,6 +4,8 @@ Pink Agentic AI Payments lets AI agents pay within spending rules you set: every
 
 This is the Python client for Pink Agentic AI Payments by PinkWallet, published by the Pink team. Version 0.1 targets the public **sandbox**. The sandbox is free, needs no signup, uses test money only, and is meant for building and demoing agent integrations. Production is early access; see the waitlist at [pinkwallet.com/agentic](https://pinkwallet.com/agentic/).
 
+JavaScript/TypeScript: https://github.com/Pink-Agentic-Payments/pink-agentic-payments-js
+
 ## Install
 
 PyPI release coming soon. Until then, install straight from GitHub:
