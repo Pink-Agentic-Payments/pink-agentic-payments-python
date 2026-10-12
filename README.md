@@ -6,6 +6,8 @@ This is the Python client for Pink Agentic AI Payments by PinkWallet, published 
 
 JavaScript/TypeScript: https://github.com/Pink-Agentic-Payments/pink-agentic-payments-js
 
+Design partners wanted: free hands-on setup and early access during the design-partner period, at [agentic-sandbox.pinkwallet.com/demo](https://agentic-sandbox.pinkwallet.com/demo). Reach us at [support@pinkwallet.com](mailto:support@pinkwallet.com) or open an issue titled "Design partner" in this repo.
+
 ## Install
 
 PyPI release coming soon. Until then, install straight from GitHub:
